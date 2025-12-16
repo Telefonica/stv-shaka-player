@@ -204,7 +204,8 @@ shaka.extern.HeadersReceived;
  * @typedef {{
  *   type: (shaka.net.NetworkingEngine.AdvancedRequestType|undefined),
  *   stream: (shaka.extern.Stream|undefined),
- *   segment: (shaka.media.SegmentReference|undefined)
+ *   segment: (shaka.media.SegmentReference|undefined),
+ *   durationChanged: (boolean|undefined)
  * }}
  *
  * @description
